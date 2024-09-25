@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beira-Mar Beach Tennis Club</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/Logo Beach Tennis.jpg" width="195" height="200" alt=""> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+    <main>
+    <section class="quiz-section">
+        <form id="quiz-form">
+            <h2>Quiz sobre nossa empresa</h2>
+            <fieldset>
+                <section id="question">
+                    <p>1. Qual é o principal produto que vendemos?</p>
+                    <label id="question"><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()"> Equipamentos de mergulho</label><br>
+                    <label id="question"><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()"> Raquetes de beach tennis</label><br>
+                    <label id="question"><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()"> Tênis de corrida</label><br>
+                    <label id="question"><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()"> Equipamentos de golfe</label><br>
+                </section>
+        
+                <section id="question">
+                    <p>2. Qual é a missão da nossa empresa?</p>
+                    <label id="question"><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()"> Proporcionar uma experiência única no beach tennis</label><br>
+                    <label id="question"><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()"> Vender produtos de baixo custo</label><br>
+                    <label id="question"><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()"> Ser a maior loja de esportes do país</label><br>
+                    <label id="question"><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()"> Aumentar a produção de equipamentos</label><br>
+                </section>
+               
+                <section id="question">
+                    <p>3. O que nossa empresa organiza para os clientes?</p>
+                    <label id="question"><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()"> Festivais de música</label><br>
+                    <label id="question"><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()"> Eventos e torneios de beach tennis</label><br>
+                    <label id="question"><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()"> Palestras sobre culinária</label><br>
+                    <label id="question"><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()"> Viagens para a praia</label><br>
+                </section>
+            
+                <section id="question">
+                    <p>4. Qual é a visão da nossa empresa?</p>
+                    <label id="question"><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()"> Ser a loja online mais acessível</label><br>
+                    <label id="question"><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()"> Ser a principal referência em beach tennis no Brasil</label><br>
+                    <label id="question"><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()"> Expandir para o mercado de moda</label><br>
+                    <label id="question"><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()"> Produzir filmes sobre esportes</label><br>
+                </section>
+            
+                <section id="question">
+                    <p>5. Além de raquetes, que tipo de produto podemos encontrar em nossa loja?</p>
+                    <label id="question"><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()"> Equipamentos de natação</label><br>
+                    <label id="question"><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()"> Acessórios e roupas para beach tennis</label><br>
+                    <label id="question"><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()"> Equipamentos de esqui</label><br>
+                    <label id="question"><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()"> Material de escalada</label><br>
+                </section>
+            
+                <section id="question">
+                    <p>6. Quem pode se beneficiar dos nossos produtos?</p>
+                    <label id="question"><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()"> Somente atletas profissionais</label><br>
+                    <label id="question"><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()"> Apenas pessoas que jogam em quadras cobertas</label><br>
+                    <label id="question"><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()">  Iniciantes e jogadores experientes</label><br>
+                    <label id="question"><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()"> Somente crianças</label><br>
+                </section>
+            
+                <section id="question">
+                    <p>7. Qual é uma prioridade na seleção de nossos produtos?</p>
+                    <label id="question"><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()"> Apenas design</label><br>
+                    <label id="question"><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()"> Qualidade e performance</label><br>
+                    <label id="question"><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()">  Preço acessível</label><br>
+                    <label id="question"><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()"> Marca famosa</label><br>
+                </section>
+            
+                <section id="question">
+                    <p>8. O que nossa empresa promove para incentivar a prática do beach tennis?</p>
+                    <label id="question"><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()"> Cursos de culinária</label><br>
+                    <label id="question"><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()"> Eventos, workshops e torneios</label><br>
+                    <label id="question"><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()">  Viagens internacionais</label><br>
+                    <label id="question"><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()"> Clubes de leitura</label><br>
+                </section>
+            
+            
+               <section id="question">
+                   <p>9. Como ajudamos a promover a saúde e o bem-estar dos clientes?</p>
+                   <label id="question"><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()"> Oferecendo produtos de beleza</label><br>
+                   <label id="question"><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()"> Vendendo alimentos saudáveis</label><br>
+                   <label id="question"><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()">  Promovendo o beach tennis como estilo de vida</label><br>
+                   <label id="question"><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()"> Oferecendo serviços de spa</label><br>
+               </section>
+            
+            
+                <section id="question">
+                    <p>10. O que torna nossa empresa única no mercado de beach tennis?</p>
+                    <label id="question"><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()"> Variedade de produtos</label><br>
+                    <label id="question"><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()"> Foco na comunidade e no esporte</label><br>
+                    <label id="question"><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()">  Preços baixos</label><br>
+                    <label id="question"><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()"> Marketing agressivo</label><br>
+                </section>
+            </fieldset>
+
+            <button type="button" onclick="submitQuiz()">ENVIAR</button>
+            <button id="retry-button" type="button" onclick="resetQuiz()" disabled>RESPONDER NOVAMENTE</button>
+            </form>
+
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>    
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>        
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+
+        <section id="result"></section>
+
+        <section>
+            <article>
+                <h3>Agradecemos pela atenção!</h3>
+            </article>
+        </section>
+    </section>              
+    </main>
+    <footer>
+        <p><img src="imagens/instagram.png" width="25px" height="25px" alt=""> beiramar.beachclub</p>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

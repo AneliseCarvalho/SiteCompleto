@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Beira-Mar Beach Tennis Club</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/Logo Beach Tennis.jpg" width="195" height="200" alt=""> 
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+    <main>
+           <form id="pg">
+                <fieldset id="dadospagto">
+                    <h2>Pagamento</h2>
+                    <div>
+                        <select id="quantidade" name="quantidade" required>
+                            <option value="" disabled selected>Quantidade</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="pagamento" name="pagamento" required>
+                            <option value="" disabled selected>Selecione a forma de pagamento</option>
+                            <option value="Cartão">Cartão de crédito/débito</option>
+                            <option value="Pix">Pix</option>
+                            <option value="Boleto">Boleto</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label id="cartao" for="cartao">Número do cartão:</label>
+                        <input type="text" id="cartao" name="cartao" required>
+                    </div>
+                    <div>
+                        <label id="cvv" for="cvv">Código CVV:</label>
+                        <input type="text" id="cvv" name="cvv" required>
+                    </div>
+                    <div></div>
+                        <label id="mes" for="mes">Mês e ano de vencimento:</label>
+                        <input type="text" id="mes" name="mes" required>
+                    </div>
+                    
+                </fieldset>
+
+                <button type="button" onclick="resetPag()">ENVIAR</button>
+                <article>
+                    <h3>Agradecemos a preferência! Seu pedido chegará em alguns dias.</h3>
+                </article>
+            </form>
+     
+    </main>
+    <footer>
+        <p><img src="imagens/instagram.png" width="25px" height="25px" alt=""> beiramar.beachclub</p>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

@@ -1,0 +1,267 @@
+body{
+    background-color: #5D9D8B;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+nav{
+    background-color: #DAF54D;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px black;
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #1E1E81;
+    font-weight: bold;
+    margin: 30px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+section.missao{
+    background-color: aliceblue;
+    padding: 90px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+} 
+
+section.missao > p{
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+section.quiz-form{
+    background-color: aliceblue;
+    padding: 90px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: auto;
+}
+
+article{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+article > aside{
+    background-color: azure;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: #DAF54D;
+    color: #1E1E81;
+    text-align: center;
+    padding: 2px;
+    margin: 0px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+footer p{
+    font-size: 17px;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    color: #1E1E81;
+}
+
+h2{
+    text-align: left;
+    font-style: italic;
+    font-size: 25px;
+    color: #1E1E81;
+}
+
+p{
+    text-align: left;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+h3{
+    text-align: left;
+    font-style: italic;
+    color: #1E1E81;
+}
+
+section.produtos{
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+section.contato{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 1050px;
+    margin: auto;
+    margin-bottom: -15px;
+}
+
+section.quiz-section{
+    background-color: aliceblue;
+    padding: 70px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 1050px;
+    margin: auto;
+}
+
+section.produtos div > h2{
+    text-align: center;
+}
+
+section.produtos div > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    padding: 5px;
+}
+
+section.produtos div > p{
+    text-align: center;
+}
+
+.botao{
+    margin: auto;
+    text-align: center;
+}
+
+#btn{
+    margin: auto;
+    background-color: #DAF54D;
+    color: #1E1E81;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #DAF54D;
+    color: #1E1E81;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    text-decoration: underline;
+}
+
+#nome{
+    width: 180px;
+}
+
+#email{
+    width: 180px;
+}
+
+#mensagem{
+    width: 1000px;
+    height: 100px;
+}
+
+#contato{
+    color: #1E1E81;
+    font-style: italic;
+}
+
+#question{
+    margin: 30px;
+}
+
+button:disabled{
+    background-color: #b39e9e;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+#quantidade{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #DAF54D;
+    color: #1E1E81;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#pagamento{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #DAF54D;
+    color: #1E1E81;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+#cartao{
+    margin: 12px;
+    width: 100px;
+    font-style: italic;
+    color: #1E1E81;
+}
+
+#cvv{
+    margin: 12px;
+    width: 100px;
+    font-style: italic;
+    color: #1E1E81;
+}
+
+#mes{
+    margin: 12px;
+    width: 100px;
+    font-style: italic;
+    color: #1E1E81;
+}
+
+#pg{
+    background-color: aliceblue;
+    padding: 70px;
+    margin: 30px;
+    border-radius: 10px;
+    max-width: 1050px;
+    margin: auto;
+}
